@@ -1,3 +1,8 @@
 [build]
   command = "npm run build -w studio"
   publish = "studio/dist"
+
+  # Ta sekcja wyłącza problematyczny dodatek Next.js
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  disabled = true
