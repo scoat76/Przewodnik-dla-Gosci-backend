@@ -2,7 +2,6 @@
   command = "npm run build -w studio"
   publish = "studio/dist"
 
-[plugins]
-  [[plugins]]
-    package = "@netlify/plugin-nextjs"
-    disabled = true
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  disabled = true
